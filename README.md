@@ -17,14 +17,14 @@ Here is what it gives me,
 4. Run `./build.sh`
 5. Run `./run.sh`
 
-Easy! This should give you a linux prompt for a user called "devuser" with password "p@ssword1". This user is a sudoer.
+Easy! This should give you a linux prompt for a user called "devuser" with password "root". This user is a sudoer.
 
 # If you wish to change the zsh theme, 
 
 1. cd ~
 2. sudo chmod +x installthemes.sh
 3. ./installthemes.sh
-4. Edit your .zshrc, and change the theme (I like agnoster)
+4. Edit your .zshrc, and change the theme (I like spaceship)
 5. Optionally capture it using docker commit (see https://winsmarts.com/snapshot-a-docker-container-20df59bbd473)
 
-Rock on!
+forked from: https://github.com/maliksahil/docker-ubuntu-sahil

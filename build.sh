@@ -1,1 +1,1 @@
-docker build --rm -f Dockerfile -t ubuntu:sahil .
+docker build --rm -f Dockerfile -t ubuntu:aakash .
