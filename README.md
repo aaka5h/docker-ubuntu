@@ -7,7 +7,6 @@ Here is what it gives me,
 2. Installs latest version of node on start
 3. Installs ohmyzsh, and the powerline fonts
 4. Git support
-5. Homebrew (linuxbrew)
 
 ## Usage
 0. Ensure you have docker installed and running
@@ -26,5 +25,12 @@ Easy! This should give you a linux prompt for a user called "devuser" with passw
 3. ./installthemes.sh
 4. Edit your .zshrc, and change the theme (I like spaceship)
 5. Optionally capture it using docker commit (see https://winsmarts.com/snapshot-a-docker-container-20df59bbd473)
+
+# Helper scripts 
+
+This directory also contians helper scripts:
+
+1. setup a simple docker container for mongodb
+2. scripts to setup my new linux installation on my machines
 
 forked from: https://github.com/maliksahil/docker-ubuntu-sahil

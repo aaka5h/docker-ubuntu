@@ -6,8 +6,8 @@ RUN apt-get update && \
     adduser --quiet --disabled-password --shell /bin/zsh --home /home/devuser --gecos "User" devuser && \
     echo "devuser:root" | chpasswd &&  usermod -aG sudo devuser
 
-ADD scripts/installthemes.sh /home/devuser/installthemes.sh
-ADD scripts/installthemes.sh /home/devuser/nvm.sh
+ADD ubuntu-scripts/installthemes.sh /home/devuser/installthemes.sh
+ADD ubuntu-scripts/installthemes.sh /home/devuser/nvm.sh
 USER devuser
 ENV TERM xterm
 ENV ZSH_THEME starship
